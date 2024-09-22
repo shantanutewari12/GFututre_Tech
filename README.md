@@ -25,7 +25,7 @@ Welcome to the Full Stack Project! This application allows users to perform CRUD
 - **Nodemon**: Tool for automatically restarting the server during development.
 - **CORS**: Middleware to enable cross-origin requests.
 
-### Approach that i have used to made this project
+# Approach that i have used to made this project
 To begin, I organized the project by creating two separate folders: one for the frontend and another for the backend. For the frontend, I used Vite to set up React, and installed the necessary libraries, including Bootstrap, Axios, and React Router DOM. I then created a "components" folder containing three files: User, CreateUser, and UpdateUser, where I implemented the logic for displaying the creation, update, and deletion of projects. These components were connected using React Router DOM’s Link feature for navigation.
 
 Next, I moved to the backend (server-side), where I installed Express, Nodemon, Mongoose, and CORS. I created an index.js file to define the APIs and assigned a port for the server. I also established a connection to the MongoDB Compass database using the connection string provided by MongoDB Compass. In the models folder, I defined the schema to store project details.
