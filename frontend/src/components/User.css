@@ -1,0 +1,46 @@
+/* User.css */
+
+.container-custom {
+    width: 100%; 
+    padding: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .container-custom {
+      width: 75%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-custom {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container-custom {
+      width: 40%;
+    }
+  }
+  
+  .table-responsive {
+    display: block;
+    width: 100%; 
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-bottom: 10px; 
+  }
+  
+  @media (max-width: 576px) {
+    .btn {
+      width: 100%;
+    }
+  }
+  
