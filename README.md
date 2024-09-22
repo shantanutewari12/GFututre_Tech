@@ -1,52 +1,43 @@
-# Full Stack Project
+# Full Stack Project Management Project
 
-A full stack application built using React for the frontend and Node.js, Express, and MongoDB for the backend.
+Welcome to the Full Stack Project! This application allows users to perform CRUD operations (Create, Read, Update, Delete) on project data using a React frontend and an Express backend with MongoDB.
 
-## Frontend Setup
+## Features
 
-To set up the frontend, install the following dependencies using Vite:
+- Create, read, update, and delete project details.
+- Dynamic data fetching from the server.
+- Responsive user interface.
+- Integrated frontend and backend using Axios for API communication.
 
-## Frontend Components
+## Technologies Used
 
-In the src/components directory, the following components were created:
+### Frontend:
+- **React**: JavaScript library for building user interfaces.
+- **React Router DOM**: Library for navigation between components.
+- **Axios**: For making HTTP requests to the backend.
+- **Bootstrap**: CSS framework for styling the frontend.
 
-User.js: Displays user data.
-CreateUser.js: Handles user creation.
-UpdateUser.js: Manages updating user data.
+### Backend:
+- **Node.js**: JavaScript runtime for server-side development.
+- **Express**: Framework for building the backend APIs.
+- **MongoDB**: NoSQL database for storing project data.
+- **Mongoose**: ODM for MongoDB to interact with the database.
+- **Nodemon**: Tool for automatically restarting the server during development.
+- **CORS**: Middleware to enable cross-origin requests.
 
-These components are connected via React Router DOM for navigation.
+## Getting Started
 
-## Backend Components
+To get started with the project, follow these steps:
 
-```javascript
-npm init -y
-npm install express nodemon mongoose cors
-```
+### Prerequisites
 
-Backend API Setup
-Create an index.js file for setting up the server and APIs.
+- **Node.js** and **npm** installed on your local machine.
+- **MongoDB** installed and running locally or a cloud instance (e.g., MongoDB Atlas).
 
-Example API Endpoints
-POST API: To create new data on the server.
-GET API: To retrieve data from the server.
-PUT API: To update data.
+### Installation
 
-## Database
+1. Clone the repository:
 
-Connect the backend to MongoDB Compass using the connection string provided in MongoDB. Create a models folder to define schemas for storing project details.
-
-Running the Application
-Frontend
-```javascript
-npm run dev
-```
-Frontend
-```javascript
-nodemon index.js
-```
-
-
-```bash
-npm create vite@latest frontend
-cd frontend
-npm install bootstrap axios react-router-dom
+   ```bash
+   git clone https://github.com/shantanutewari12/GFututre_Tech.git
+   cd full-stack-project
